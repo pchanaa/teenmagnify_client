@@ -1,0 +1,157 @@
+#root {
+  font-family: NanumSquare;
+  overflow-x: hidden;
+}
+.App {
+  width: 100%;
+  text-align: center;
+}
+.top {
+  background-color: #f9f8f8;
+  height: 440px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+header {
+  padding-top: 10px;
+  padding-left: 50px;
+
+  color: black;
+  /*padding-top: 30px;*/
+  width: 98vw;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 42px;
+
+  margin: 20px 0px 20px 15px;
+}
+.container_first {
+  display: flex;
+  flex-direction: row;
+}
+.container_second {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.local,
+.area,
+.login_but {
+  margin-top: 28.5px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.login_but {
+  padding-right: 80px;
+}
+
+.area {
+  margin-right: 150px;
+}
+.moto_container {
+  margin-top: 150px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  transition: width 0.01s;
+}
+.moto {
+  width: 28%;
+  font-size: 35px;
+  line-height: 55px;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: auto;
+  padding-left: 125px;
+}
+
+.moto_img {
+  margin-left: auto;
+  width: 430px;
+  height: 100%;
+  margin-top: -70px;
+  margin-right: 50px;
+
+  padding-right: 125px;
+}
+.local:hover,
+.area:hover,
+.login_but:hover {
+  opacity: 70%;
+}
+.loading {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.loading_img {
+  padding-top: 45vh;
+  width: 50px;
+  height: auto;
+  animation: 1s infinite alternate fadeinout;
+}
+
+@keyframes fadeinout {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1295px) {
+  .moto_container {
+    width: 100vw;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .moto {
+    padding-left: 55px;
+    padding-right: 0px;
+  }
+  .moto_img {
+    padding-right: 55px;
+  }
+}
+
+.main_img {
+  margin-top: 17.7px;
+  margin-left: 9.5px;
+  width: 38px;
+  height: 39px;
+  transform: rotate(10deg);
+}
+
+@media screen and (max-width: 1117px) {
+  .moto {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .moto {
+    width: 40%;
+    font-size: 30px;
+  }
+  .container_second {
+    width: 60vw;
+  }
+  .local {
+    margin-right: 5px;
+  }
+  .area {
+    margin-right: 20px;
+  }
+}
+
+/*mediaquery*/

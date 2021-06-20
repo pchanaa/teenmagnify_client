@@ -1,0 +1,30 @@
+let searchObject={
+  "web":"웹/모바일/IT",
+  "advertise":"광고/마케팅",
+  "video":"영상/UCC/사진",
+  "arts":"예체능/미술/음악",
+  "supporters":"대외활동/서포터즈",
+  "idea":"기획/아이디어",
+  "report":"논문/리포트",
+  "job":"취업/창업",
+  "science":"과학/공학",
+  "game":"게임/소프트웨어",
+  "literature":"문학/글/시나리오",
+  "etc":"기타",
+  "gyeonggi":"경기도",
+  "seoul":"서울특별시",
+  "incheon":"인천광역시",
+  "gangwon":"강원도",
+  "chung":"충청도",
+  "gyeong":"경상도",
+  "jeolla":"전라도",
+  "ulsan":"울산광역시",
+  "daegu":"대구광역시",
+  "daejeon":"대전광역시",
+  "busan":"부산광역시",
+  "gwangju":"광주광역시",
+  "jeju":"제주특별자치도",
+  
+}
+
+module.exports={searchObject};

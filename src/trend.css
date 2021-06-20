@@ -1,0 +1,95 @@
+.trend_img {
+  margin: 0px 19px 10px 15px;
+  max-width: 150px;
+  max-height: 170px;
+}
+.trend_container {
+  text-align: left;
+  width: 65%;
+  height: 170px;
+  max-width: 350px;
+  max-height: 170px;
+}
+.trends {
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.trends_container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.trend_date {
+  cursor: pointer;
+}
+.trend_box {
+  padding-top: 17px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+  width: 500px;
+  height: 170px;
+  flex-wrap: wrap;
+  margin-bottom: 65px;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.trend_title {
+  margin-top: -27px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.trend_title > div {
+  margin: 16.615px 0px 18.615px 0px;
+}
+
+.trend_host,
+.trend_part,
+.first_reward,
+.total_reward,
+.trend_local {
+  margin-bottom: 3px;
+}
+.trend_host,
+.trend_part,
+.trend_day,
+.first_reward,
+.total_reward,
+.trend_local {
+  font-size: 14.5px;
+  font-weight: 450;
+}
+@media screen and (max-width: 1124px) {
+  .info {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 1295px) {
+  .info:nth-child(odd) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 643px) {
+  .trend_container {
+    width: 50%;
+    height: 100%;
+  }
+  .trend_box {
+    padding-top: 10px;
+  }
+}

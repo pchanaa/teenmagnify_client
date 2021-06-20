@@ -1,0 +1,137 @@
+.area_box {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  width: 100%;
+}
+.area_nav {
+  /*margin: 40px 0px 0px 30px;*/
+  /* width: 21.72%;*/
+  padding-top: 50px;
+  margin-left: 52px;
+
+  height: 100%;
+  position: fixed;
+}
+.area_div {
+  width: 100%;
+}
+.area_container {
+  width: 100%;
+  padding-left: 21.72%;
+}
+.area_c_header {
+  width: 95.8%;
+  height: 300px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #dcf7fe;
+}
+.area_nav_title {
+  margin-bottom: 44px;
+  font-weight: 700;
+  font-size: 33px;
+}
+.area_list {
+  list-style: none;
+  padding: 0px;
+}
+
+.area_list li {
+  margin-bottom: 24px;
+
+  font-weight: 300;
+}
+.home_button,
+.area_list li {
+  cursor: pointer;
+}
+.home_button {
+  margin-top: 5px;
+  font-size: 15px;
+  padding: 5.5px 50px 5.5px 50px;
+  border-radius: 0%;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+}
+.home_button:hover,
+.area_list li:hover {
+  opacity: 70%;
+}
+.area_header_box {
+  padding-top: 50px;
+  padding-left: 74px;
+}
+
+.area_header_high {
+  font-weight: 300;
+  margin-bottom: 28px;
+}
+.area_header_down {
+  margin-top: 30px;
+  max-width: 55%;
+  font-weight: 800;
+  font-size: 40px;
+}
+.area_down_buttons {
+  margin-top: 20px;
+}
+.area_down_buttons img {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+/*.local:hover,
+.local:focus,
+.area:hover,
+.area:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  transform: translateY(-0.5em);
+  transition: 0.15s;
+}
+*/
+
+/*areaInfo*/
+.area_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 45px;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 85%;
+  padding: 10px 10px 10px 10px;
+}
+.area_items_container {
+  padding-left: 40px;
+  padding-top: 27px;
+  text-align: left;
+  height: 200px;
+}
+.area_img {
+  width: auto;
+  height: auto;
+  max-width: 172.475px;
+  max-height: 219.975px;
+}
+.area_items {
+  margin-top: 100px;
+  margin-left: 120px;
+}
+.area_title {
+  font-weight: 650;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.area_host,
+.area_part,
+.area_local,
+.area_host,
+.area_first_reward,
+.area_total {
+  margin-bottom: 2.5px;
+}

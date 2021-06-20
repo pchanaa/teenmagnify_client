@@ -1,0 +1,130 @@
+.close_button {
+  font-size: 15px;
+  padding: 9.5px 60px 9.5px 60px;
+  border-radius: 0%;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+.close_button:hover {
+  opacity: 70%;
+}
+
+.login {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.login > section {
+  width: 90%;
+  height: auto;
+  max-height: 900px;
+  max-width: 485px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #fff;
+  /* 팝업이 열릴때 스르륵 열리는 효과 */
+  animation: login-show 0.3s;
+
+  overflow: hidden;
+}
+.login > section > header {
+  position: relative;
+  padding: 16px 64px 16px 16px;
+  background-color: #f1f1f1;
+  font-weight: 700;
+}
+.login > section > header > button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  color: #999;
+  background-color: transparent;
+}
+.login > section > main {
+  padding: 24px 16px 10px 16px;
+  /*border-bottom: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;*/
+}
+.login > section > footer {
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.login.openlogin {
+  display: flex;
+  align-items: center;
+  /* 팝업이 열릴때 스르륵 열리는 효과 */
+  animation: login-bg-show 0.5s;
+}
+.login_title {
+  width: 400px;
+  margin: 18.72px 0px 18.72px 0px;
+  font-weight: 750;
+  font-size: 18px;
+}
+.login_info {
+  margin-left: auto;
+  margin-top: 20px;
+}
+.login_link {
+  margin-top: 25px;
+
+  color: #707070;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+.login_link:hover {
+  opacity: 70%;
+}
+.login_img {
+  width: 265px;
+  height: 338px;
+  margin-bottom: 10px;
+}
+.login_part,
+.login_title {
+  width: auto;
+}
+
+.login_context {
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.login_container {
+  text-align: center;
+}
+@keyframes login-bg-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes login-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
